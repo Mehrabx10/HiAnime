@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="/assets/font awesome/css/all.min.css">
+
+  <link rel="icon" type="image/png" href="/assets/apple-touch-icon.png">
+
+  <!-- CSS LINKS -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <title>HiAnime, Free Anime Streaming Site</title>
+</head>
+
+<body>
+  <!-- ========= HEADER ========= -->
+  <header>
+    <nav class="home-header">
+      <div class="header__menu-mobile">
+        <i class="fa-solid fa-bars"></i>
+        <a href="/index.html" class="header__logo">
+          <img src="/assets/logo.png" alt="HiAnime Logo">
+        </a>
+      </div>
+
+      <div class="menu-overlay"></div>
+
+      <div class="header__menu">
+        <div class="header__menu-close">
+          <i class="fa-solid fa-angle-left"></i>
+          <span>Close</span>
+        </div>
+
+        <div class="header__action">
+          <a href="#" class="header__action-menu">
+            <i class="fa-solid fa-tv-retro"></i>
+            <span>W.2.G</span>
+          </a>
+
+          <a href="#" class="header__action-menu">
+            <i class="fa-solid fa-shuffle"></i>
+            <span>Random</span>
+          </a>
+
+          <a href="#" class="header__action-menu">
+            <i class="fa-solid fa-rss"></i>
+            <span>News</span>
+          </a>
+        </div>
+
+        <a href="#" class="header__action-community">
+          <i class="fa-solid fa-comments"></i>
+          Community
+        </a>
+
+        <ul class="header__menu-list">
+          <li class="menu__list"><a href="home.html">Home</a></li>
+          <li class="menu__list"><a href="#">Subbed Anime</a></li>
+          <li class="menu__list"><a href="#">Dubbed Anime</a></li>
+          <li class="menu__list"><a href="#">Most Popular</a></li>
+          <li class="menu__list"><a href="#">Movies</a></li>
+          <li class="menu__list"><a href="#">TV Series</a></li>
+          <li class="menu__list"><a href="#">OVAs</a></li>
+          <li class="menu__list"><a href="#">ONAs</a></li>
+          <li class="menu__list"><a href="#">Specials</a></li>
+          <li class="menu__list"><a href="#">Events</a></li>
+          <li class="menu__list"><a href="#">HiAnime App</a></li>
+        </ul>
+      </div>
+
+      <div class="header__search">
+        <input type="text" class="header__search-input" placeholder="Search Anime..." required>
+
+        <button class="header__search-button">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+        <a href="#" class="header__search-filter">
+          <i class="fa-solid fa-filter-list"></i>
+        </a>
+      </div>
+
+      <div class="header__share">
+        <a href="#" class="container-share__icon-facebook tooltip">
+          <i class="fa-brands fa-discord"></i>
+          <span class="tooltip-text">Facebook</span>
+        </a>
+
+        <a href="#" class="container-share__icon-twitter tooltip">
+          <i class="fa-brands fa-x-twitter"></i>
+          <span class="tooltip-text">X</span>
+        </a>
+
+        <a href="#" class="container-share__icon-reddit tooltip">
+          <i class="fa-brands fa-reddit-alien"></i>
+          <span class="tooltip-text">Reddit</span>
+        </a>
+        <a href="#" class="container-share__icon-telegram tooltip">
+          <i class="fa-brands fa-telegram"></i>
+          <span class="tooltip-text">Telegram</span>
+        </a>
+      </div>
+
+      <div class="header__action">
+        <a href="#" class="header__action-menu">
+          <i class="fa-solid fa-tv-retro"></i>
+          Watch2gether
+        </a>
+
+        <a href="#" class="header__action-menu">
+          <i class="fa-solid fa-shuffle"></i>
+          Random
+        </a>
+
+        <a href="#" class="header__action-menu">
+          <i class="fa-solid fa-rss"></i>
+          News
+        </a>
+
+        <a href="#" class="header__action-menu">
+          <i class="fa-solid fa-comments"></i>
+          Community
+        </a>
+      </div>
+
+      <div class="header-profile">
+        <button class="header-profile__search-button">
+          <i class="fa-solid fa-search"></i>
+        </button>
+
+        <div class="header-profile__notifications">
+          <button class="header-profile__notifications-button">
+            <i class="fa-solid fa-bell"></i>
+          </button>
+
+          <div class="header-profile__notification-panel">
+            <div class="header-profile__notification-header">
+              <h3>Notifications</h3>
+              <button class="header-profile__notification-clear">Clear All</button>
+            </div>
+
+            <div class="header-profile__notification-type">
+              <h4 class="type-anime active">Anime</h4>
+              <h4 class="type-community">Community</h4>
+            </div>
+
+            <div class="header-profile__notification-mark">
+              <i class="fa-solid fa-check"></i>
+              <span>Mark all as read</span>
+            </div>
+
+            <div class="header-profile__notification-list">
+              <i class="fa-solid fa-box-open"></i>
+              <span>No new Notifications</span>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="header-profile__avatar">
+          <img src="/assets/images/mine.jpg" alt="User Avatar">
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <script type="module" src="js/utils/home.js" defer></script>
+</body>
+
+</html>
